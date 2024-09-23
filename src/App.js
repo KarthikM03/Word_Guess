@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Deemo from './Deemo.js';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   // let words = ['karthik','mental','kavya','mouni','psyco']
@@ -8,6 +9,7 @@ function App() {
   return (
     <div>
     <Deemo />
+    <SpeedInsights />
     </div>
   );
 }
