@@ -10,7 +10,6 @@ function App() {
     <div>
     <Deemo />
     <SpeedInsights />
-    hia
     </div>
   );
 }
